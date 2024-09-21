@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header class="header">
+        <a href="#" class="logo">Arju<span class="animate" style="--i:1;"></span></a>
+
+    <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#Home"class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Education">Education</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+        </header>
+        <section class="Home"id="Home">
+            <div class="Home-content">
+                <h1>Hello, I'm <span>Arju Rewatkar</span></h1>
+                <div class="text-animate">
+                    <h3>Frontend Developer</h3>
+                </div>
+                <p>Recent graduate with a strong foundation in Computer Science/Engineering, eager to apply skills and knowledge
+                    in the exciting field of Internet of Things (IoT). Proficient in programming languages such as HTML,CSS and
+                    Javascript with a basic understanding of IoT concepts, protocols, and devices</p>
+                        <div class="btn-box">
+                            <a href="#" class="btn">Hire me</a>
+                            <a href="#" class="btn">Let's Talk</a>
+                        </div>
+            </div>
+            <div class="Home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="Home-imgHover"></div>
+        </section>
+        <section class="About" id="About">
+            <h2 class="heading">About<span> Me </span></h2>
+
+            <div class="About-img">
+                <img src="about1.jpg",alt="">
+                <span class="circle-spin"></span>
+            </div>
+            <div class="About-content">
+                <h3>Frontend Developer!</h3>
+                <!--<P> Hii...I am Arju Rewatkar, a Bachelor of Engineering (B.E.) graduate in Computer Science and Engineering (CSE), a strong focus on front-end development. I have hands-on experience in designing and building interactive, user-friendly web applications using technologies such as HTML, CSS, and JavaScript.
+                    My knowledge extends into the Internet of Things (IoT), combining my passion for technology with real-world applications. I am constantly learning and honing my skills to stay ahead in the fast-evolving field of web development. My goal is to create seamless digital experiences through innovative and responsive design.
+                </P>
+                   <div class="btn-box btns">
+                        <a href="#" class="btn">Read More</a>
+                    </div>-->
+                    <p id="text">
+                        Hii...I am Arju Rewatkar, a Bachelor of Engineering (B.E.) graduate in Computer Science and Engineering (CSE), with a strong focus on front-end development. I have hands-on experience in designing and building interactive, user-friendly web applications using technologies such as HTML, CSS, and JavaScript.
+                        <span id="moreText" class="hidden">
+                            My knowledge extends into the Internet of Things (IoT), combining my passion for technology with real-world applications. I am constantly learning and honing my skills to stay ahead in the fast-evolving field of web development. My goal is to create seamless digital experiences through innovative and responsive design.
+                        </span>
+                    </p>
+                
+                    <div class="btn-box btns">
+                        <a href="javascript:void(0);" class="btn" id="toggleButton" onclick="toggleText()">Read More</a>
+                    </div>
+            </div>
+        </section>
+         <section class="Education" id="Education">
+         <h2 class="heading">My <span>Journey</span></h2>
+
+         <div class="Education-row">
+            <div class="Education-column">
+                <h3 class="title">Education</h3>
+                <div class="Education-box">
+                    <div class="Education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2020-2024</div>
+                        <h3>Bachelor of Engineering(Computer Science and Engineering) -Internet of Things</h3>
+                        <p>College of Engineering and Technology,Akola</p>
+                     </div>
+                    </div>
+
+                    <div class="Education-content">
+                        <div class="content">
+                           <div class="year"><i class='bx bxs-calendar'></i>2018-2019</div>
+                           <h3>Higher Secondary School Certificate</h3>
+                           <p>St. Paul junior College, Nagpur</p>
+                        </div>
+                       </div>
+
+                       <div class="Education-content">
+                        <div class="content">
+                           <div class="year"><i class='bx bxs-calendar'></i>2016-2017</div>
+                           <h3> Secondary School Certificate</h3>
+                           <p>Shahid Mishra High School, Tirora</p>
+                        </div>
+                       </div>
+                </div>
+            </div>
+
+            <div class="Education-column">
+                <h3 class="title">projects</h3>
+                <div class="Education-box">
+                    <div class="Education-content">
+                     <div class="content">
+                        <h3>Virtual Doctor Robot</h3>
+                        <p>Virtual Doctor robot can automatically interact with patients as well as colleagued lab assistans while virtually
+                            moving across at automatically places using the IOT virtual doctor robot .</p>
+                     </div>
+                    </div>
+
+                    <div class="Education-content">
+                        <div class="content">
+                           <!--<div class="year"><i class='bx bxs-calendar'></i>2024-02</div>-->
+                           <h3>Personal Portfolis website</h3>
+                           <p>In this project, Design and build a portfolio website from scratch using HTML,CSS, and Javascript. A portfolio
+                            Website that represent you online on the web pages.It contains different sections like Introduction to yourself,
+                            About you, your contact details</p>
+                        </div>
+                       </div>
+
+                      <!-- <div class="Education-content">
+                        <div class="content">
+                           <div class="year"><i class='bx bxs-calendar'></i>2019-07</div>
+                           <h3> Maharashtra State Certificate in information technology (MS-CIT)</h3>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id ut in eius corrupt</p>
+                        </div>
+                       </div>-->
+                </div>
+            </div>
+         </div>
+        </section>
+
+<section class="Skills" id="Skills">
+    <h2 class="heading">MY <span>Skills</span></h2>
+    <div class="Skills-row">
+        <div class="Skills-column">
+            <h3 class="title">Coding Skills</h3>
+
+            <div class="Skills-box">
+                <div class="Skills-content">
+                    <div class="progress">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="progress">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="progress">
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="progress">
+                        <h3>Node.js</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Skills-column">
+            <h3 class="title">Certifications</h3>
+
+            <div class="Skills-box">
+                <div class="Skills-content">
+                    <div class="progress">
+                        <h3>Automation using Arduino</h3>
+                    </div>
+                    <div class="progress">
+                        <h3>International Level Students workshop on data science using python</h3>
+                    </div>
+                    <div class="progress">
+                        <h3>Maharashtra State Certificate in Information Technology (MS-CIT)</h3>
+                    </div>
+                    <div class="progress">
+                        <h3>Frontend development-HTML</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Contact" id="Contact">
+    <h2 class="heading">Contact  <span>Me!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="FULL Name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Address" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea> 
+            <span class="focus"></span>       
+        </div>
+
+        <div class="btn-box btns">
+            <button type="submit" class="btn">submit</button>
+        </div>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright & copy; 2024 by Arju Rewatkar | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+        <script src="index.js"></script>
+    </body>
+</html>
